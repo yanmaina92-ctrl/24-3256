@@ -1,1 +1,34 @@
-
+ body {
+            font-family: sans-serif;
+            padding: 20px;
+            font-style: italic;
+            background-color:white;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+        }
+        th, td {
+            border: 1px solid #a82b2b;
+            padding: 8px;
+            text-align: left;
+        }
+        
+        th {
+            background-color: #6ae7e9;
+        }
+        .table1 tr:nth-child(even) {
+            background-color: #98b32c;
+        }
+        .table1 tr:nth-child(odd) {
+            background-color: #7523b9;
+        }
+        .table2 tr:nth-child(2) {
+            background-color: #9e5c36;
+        }
+        .table2 tr:nth-child(3) {
+            background-color: #809499;
+        }
+        
+       
